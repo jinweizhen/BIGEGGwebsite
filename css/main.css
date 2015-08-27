@@ -303,3 +303,9 @@ figure img{
 
 
 
+
+footer{
+    height: 20px;
+    background: #000000;
+    opacity: 0.6;
+}
