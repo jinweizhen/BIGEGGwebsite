@@ -1,0 +1,305 @@
+
+nav{
+    height: 20px;
+    background: #000000;
+    opacity: 0.6;
+}
+
+h1,p,h2{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+figcaption p,figure img,figure div{
+    transition: all 0.35s;
+}
+.banner{
+    height: 700px;
+    width: 100%;
+    background: #000000;
+    opacity: 0.3;
+    color: #ffffff;
+    text-align: center;
+}
+
+.banner h1{
+    font-size: 250px;
+    position: relative;
+    top: 30%;
+}
+
+
+.no01 {
+    height: 350px;
+    width: 100%;
+    background: #0086b3;
+
+    text-align: center;
+
+}
+
+figure{
+    height: 350px;
+    width: 25%;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+
+}
+
+figure img{
+    height: 350px;
+}
+
+.no01 img{
+    opacity: 1;
+}
+.no01 .fig01 ,.fig03{
+    background: #ffffff;
+
+
+}
+
+
+
+
+.no01 .fig02,.fig04{
+    background: #000000;
+}
+
+
+.fig01{
+    background: #0086b3;
+
+}
+
+.fig01 figcaption{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 3%;
+    padding-top: 55%;
+
+}
+
+.fig01 figcaption p{
+    background: #82568C;
+    color: #ffffff;
+    margin: 3px;
+    transform: translate(-130px);
+
+}
+
+.fig01:hover figcaption p
+{
+    transform: translate(0px);
+}
+
+.fig01:hover figcaption p:first-child
+{
+   transition-delay: 0.05s;
+}
+
+
+.fig01:hover figcaption p:nth-of-type(2)
+{
+    transition-delay: 0.1s;
+}
+.fig01:hover figcaption p:nth-of-type(3)
+{
+    transition-delay: 0.15s;
+}
+
+.fig01  img  {
+    opacity: 0.9;
+
+}
+
+.fig01:hover  img  {
+    transform: scale(1.2,1.2);
+
+}
+
+.bgcolor{
+    width:100%;
+    height: 100%;
+    background: #CC53FF;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.1;
+
+}
+
+.fig01:hover .bgcolor{
+    opacity: 0.3;
+
+}
+
+
+.fig02 figcaption{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 13%;
+    padding-top: 55%;
+
+}
+
+.fig02 figcaption p{
+    background: #000000;
+    color: #ffffff;
+    margin: 3px;
+    transform: skew(90deg);
+
+}
+
+.fig02:hover figcaption p
+{
+    transform: skew(0deg);
+}
+
+.fig02:hover figcaption p:first-child
+{
+    transition-delay: 0.05s;
+}
+
+
+.fig02:hover figcaption p:nth-of-type(2)
+{
+    transition-delay: 0.1s;
+}
+.fig02:hover figcaption p:nth-of-type(3)
+{
+    transition-delay: 0.15s;
+}
+
+
+.fig02:hover img{
+    transform:translate(30px) ;
+}
+
+
+.fig03 {
+    position: relative;
+}
+
+.fig03  .div1{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+
+    width: 80%;
+    height: 80%;
+    border: 3px solid #222222;
+    background: #ff0000;
+    opacity: 0.2;
+
+    transform: translate(0px,-320px) rotate(0deg);
+
+}
+
+.fig03  .div2{
+    background: #0000ff;
+    opacity: 0.1;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+
+    width: 60%;
+    height: 60%;
+    border: 3px solid #222222;
+
+
+    transform: translate(350px,0px) rotate(0deg);
+
+
+}
+
+
+
+.fig03  .div3{
+    background: #00ff00;
+    opacity: 0.1;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+
+    width: 40%;
+    height: 40%;
+    border: 3px solid #222222;
+
+
+    transform: translate(0px,320px) rotate(0deg);
+
+
+}
+
+
+
+.fig03:hover  .div1{
+
+    transform: translate(0px,0px) rotate(360deg);
+}
+
+
+.fig03:hover  .div2{
+    transition-delay: 0.5s;
+    transform: translate(0px,0px) rotate(360deg);
+}
+
+
+.fig03:hover  .div3{
+    transition-delay: 1s;
+    transform: translate(0px,0px) rotate(360deg);
+}
+
+
+.fig03:hover img{
+    transform: scale(1.4,1.7);
+}
+
+
+.fig04:hover img{
+    transform: translate(20px,14px) scale(1.2,1.2);
+
+}
+
+
+
+.main{
+    max-width: 1920px;
+    background: #444 url("../img/banner.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+
+
+.no02{
+    width: 100%;
+    height: 550px;
+    background: #CC53FF;
+    opacity: 0.2;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.no02 h2{
+    font-size: 300px;
+}
+
+.no02 p{
+    font-size: 100px;
+}
+
+
+
